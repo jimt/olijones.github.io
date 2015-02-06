@@ -1,130 +1,101 @@
 /*
-*	This stylesheet includes the rules relating to all colours on the site, this allows for easy theming. 
+*	This stylesheet includes the rules relating to all OERu colours on the site. 
 */
 
 header {
-background-color: #005aab; /* OP */
-/*background-color: #6FA92E; /* OERu */
+background-color: #6FA92E;
 }
-.brandtext > h1 a:hover, a:focus {
-color: #005aab; /* OP */
-/*color: #6FA92E; /* OERu */
+.brandtext > h1 a:hover, a:focus, a:visited {
+color: #6FA92E;
 }
 .greenbg {
-background-color: #004d92; /* OP */
-/*background-color: #649D23; /* OERu */
+background-color: #649D23;
 }
 nav {
-background-color: #004d92; /* OP */
-/*background-color: #649D23; /* OERu */
+background-color: #649D23;
 }
 nav a {
-color: #c2cddd; /* OP */
-/*color: #D4E3C7; /* OERu */
+color: #D4E3C7;
 }
 .breadcrumb a {
-color: #c2cddd; /* OP */
-/*color: #D4E3C7; /* OERu */
+color: #D4E3C7;
 }
 .breadcrumb a:hover, a:focus {
-color: #FFF; /* OP */
-/*color: #FFF; /* OERu */
+color: #FFF;
 }
 .breadcrumb > li + li:before {
-color: #c2cddd; /* OP */
-/*color: #D4E3C7; /* OERu */
+color: #D4E3C7;
 }
 .nav > li > a:hover, .nav > li > a:focus, .nav .current a {
-background-color: #00417A; /* OP */
-/*background-color: #5a9319; /* OERu */
+background-color: #5a9319;
 }
 .dropdown-menu {
 background-color: #00417A !important;
 }
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-color: #c2cddd;
-background-color: #003564; /* OP */
-/*color: #D4E3C7;
-background-color: #5a9319; /* OERu */
+color: #D4E3C7;
+background-color: #5a9319;
 }
 h1 {
-color: #005aab; /* OP */
-/*color: #6FA92E; /* OERu */
+color: #6FA92E;
 }
 h1 a {
-color: #005aab; /* OP */
-/*color: #6FA92E; /* OERu */
+color: #6FA92E;
 }
 h2 {
-color: #005aab; /* OP */
-/*color: #6FA92E; /* OERu */
+color: #6FA92E;
 }
 h3 {
-color: #005aab; /* OP */
-/*color: #6FA92E; /* OERu */
+color: #6FA92E;
 }
 h4 {
-color: #005aab; /* OP */
-/*color: #6FA92E; /* OERu */
+color: #6FA92E;
 }
 h5 {
-color: #005aab; /* OP */
-/*color: #6FA92E; /* OERu */
+color: #6FA92E;
 }
 .panel-heading {
-background-color: #005aab; /* OP */
-/*background-color: #6FA92E; /* OERu */
+background-color: #6FA92E;
 }
 .pager li > a, .pager li > span {
-border: 1px solid #005aab;
-color: #005aab !important; /* OP */
-/*border: 1px solid #6FA92E;
-color: #6FA92E !important; /* OERu */
+border: 1px solid #6FA92E;
+color: #6FA92E !important;
 }
 @media only screen and (max-width: 992px) .navbar-collapse {
-background-color: #004d92; /* OP */
-/*background-color: #649D23; /* OERu */
+background-color: #649D23;
 }
 .navbar-toggle {
-background-color: #005aab; /* OP */
-/*background-color: #6EA72D; /* OERu */
+background-color: #6EA72D;
 }
 @media (max-width: 767px) .breadcrumb a {
-color: #c2cddd; /* OP */
-/*color: #D4E3C7; /* OERu */
+color: #D4E3C7;
 }
 @media only screen and (max-width: 992px) .navbar-toggle:hover {
-background-color: #00417A; /* OP */
-/*color: #6FA92E; /* OERu */
+color: #6FA92E;
 }
 .panel-default > .panel-heading {
-background-color: #005aab; /* OP */
-/*color: #6FA92E; /* OERu */
+color: #6FA92E;
 }
 .button, input[type=submit] {
-border-bottom: 3px solid #004d92; /* OP */
-/*border-bottom: 3px solid #5a9319; /* OERu */
+border-bottom: 3px solid #5a9319;
 }
 .button {
-background-color: #005aab; /* OP */
-/*background-color: #6FA92E; /* OERu */
+background-color: #6FA92E;
 }
-a {
-color: #6FA92E; /* OP */
-/*color: #428bca; /* OERu */
+a,
+a:visited {
+color: #6fa92e;
 }
 a:hover,
 a:focus {
-color: #649D23; /* OP */
-/*color: #2a6496; /* OERu */
+color: #6fa92e;
 }
 .pagenav {
-background-color: #D0E9FF; /* OP */
+background-color: #D0E9FF;
 }
 #pagenav .current {
-background-color: #98D6F6; /* OP */
+background-color: #98D6F6;
 }
 summary {
-color: #005aab; /* OP */
-/*color: #6FA92E; /* OERu */
+color: #6FA92E;
 }
